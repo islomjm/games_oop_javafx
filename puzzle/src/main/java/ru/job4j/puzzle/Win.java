@@ -14,8 +14,8 @@ public class Win {
 
     public static boolean Horizontal(int[][] board, int column) {
         boolean rsl = true;
-        for (int i = 0; i < board.length; i++) {
-            if (board[column][i] != 1) {
+        for (int index = 0; index < board.length; index++) {
+            if (board[column][index] != 1) {
                 rsl = false;
                 break;
             }
